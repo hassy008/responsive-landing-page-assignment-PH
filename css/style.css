@@ -4,6 +4,23 @@
 }
 
 
+/* last-section-style Section Began */
+
+.last-section-style {
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.281);
+    -moz-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.281);
+    box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.281);
+}
+
+.last-section-img-width {
+    width: 80px;
+}
+
+
+/* last-section-style Section End */
+
+
 /* code for responsive  */
 
 @media (max-width: 768px) {
