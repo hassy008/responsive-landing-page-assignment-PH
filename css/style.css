@@ -1,0 +1,13 @@
+.top-bg-img {
+    background-image: url("../images/logo-icon/bg-img.png");
+    background-repeat: no-repeat;
+}
+
+
+/* code for responsive  */
+
+@media (max-width: 768px) {
+    .top-bg-img {
+        background-image: none;
+    }
+}
