@@ -14,7 +14,7 @@
 }
 
 .last-section-img-width {
-    width: 80px;
+    width: 60px;
 }
 
 
@@ -55,7 +55,8 @@
 /* footer social/payment images  began*/
 
 .social-img {
-    height: 20px;
+    height: 30px;
+    padding: 0 5px;
 }
 
 .payment-img {
@@ -94,6 +95,9 @@
     .top-categories-list-col {
         flex: 0 0 auto;
         width: 48%;
+    }
+    .last-section-img-width {
+        width: 55px;
     }
     .footer-col {
         flex: 0 0 auto;
