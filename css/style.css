@@ -69,6 +69,13 @@
 
 /* code for responsive  */
 
+@media (max-width: 990px) {
+    /* .testttttttt {
+        flex: 0 0 auto;
+        width: 100%;
+    } */
+}
+
 @media (max-width: 768px) {
     .top-bg-img {
         background-image: none;
