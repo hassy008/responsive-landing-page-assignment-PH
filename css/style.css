@@ -42,6 +42,12 @@
     background-color: antiquewhite;
 }
 
+.categories-img:hover {
+    -webkit-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.281);
+    -moz-box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.281);
+    box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.281);
+}
+
 
 /* categories list section end*/
 
@@ -53,7 +59,7 @@
 }
 
 .payment-img {
-    width: 100%;
+    width: 50%;
     height: 20px;
 }
 
