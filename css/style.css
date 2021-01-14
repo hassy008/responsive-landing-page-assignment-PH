@@ -21,10 +21,76 @@
 /* last-section-style Section End */
 
 
+/* categories list section began*/
+
+.categories-list {
+    width: 100%;
+    text-align: center;
+    transition: .3s;
+    padding: 20px;
+}
+
+.categories-list:hover {
+    transform: translateY(-10px);
+}
+
+.categories-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: antiquewhite;
+}
+
+
+/* categories list section end*/
+
+
+/* footer social/payment images  began*/
+
+.social-img {
+    height: 20px;
+}
+
+.payment-img {
+    width: 100%;
+    height: 20px;
+}
+
+
+/* footer social/payment images  end*/
+
+
 /* code for responsive  */
 
 @media (max-width: 768px) {
     .top-bg-img {
         background-image: none;
     }
+    .footer-col {
+        flex: 0 0 auto;
+        width: 48%;
+    }
+    .footer-sign-up-col {
+        width: 100%;
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .top-categories-list-col {
+        flex: 0 0 auto;
+        width: 48%;
+    }
+    .footer-col {
+        flex: 0 0 auto;
+        width: 48%;
+    }
+    .footer-sign-up-col {
+        width: 100%;
+        padding: 0 40px;
+    }
+}
+
+
 }
